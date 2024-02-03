@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import user from "/Users/kartikambekar/Documents/React/Contact/contact-app/src/Images/3135715.webp";
+import user from "Replace with image path"; //
 
 const ContactDetail = (props) => {
     console.log(props);
