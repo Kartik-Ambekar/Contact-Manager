@@ -10,9 +10,9 @@ import { useHistory } from 'react-router-dom'; //install package if not already 
 import { nanoid } from "nanoid"; //install package if not already installed
 import "Replace Text with path of App.js";
 import Header from "Replace Text with path of Header.js";
-import ContactList from "Replace Text with App.js path of ContactList.js";
-import AddContacts from "Replace Text with App.js path of AddContact.js";
-import ContactDetail from "Replace Text with App.js path of Contactdetail.js";
+import ContactList from "Replace Text with path of ContactList.js";
+import AddContacts from "Replace Text with path of AddContact.js";
+import ContactDetail from "Replace Text with path of Contactdetail.js";
 
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
