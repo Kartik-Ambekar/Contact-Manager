@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import user from "/Users/kartikambekar/Documents/React/Contact/contact-app/src/Images/3135715.webp";
+import user from "Insert the Image path here";
 
 const ContactCard = (props) => {
     const { id, name, email } = props.contact;
