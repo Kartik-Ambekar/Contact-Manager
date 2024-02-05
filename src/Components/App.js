@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { uuid } from "uuidv4"; //install package if not already installed
+import { uuid } from "uuidv4";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Routes,
-} from "react-router-dom"; //install package if not already installed
-import { useHistory } from 'react-router-dom'; //install package if not already installed
-import { nanoid } from "nanoid"; //install package if not already installed
-import "Replace Text with path of App.js";
-import Header from "Replace Text with path of Header.js";
-import ContactList from "Replace Text with path of ContactList.js";
-import AddContacts from "Replace Text with path of AddContact.js";
-import ContactDetail from "Replace Text with path of Contactdetail.js";
+} from "react-router-dom";
+import { useHistory } from 'react-router-dom';
+import { nanoid } from "nanoid";
+import "./App.js";
+import Header from "./Header.js";
+import ContactList from "./ContactList.js";
+import AddContacts from "./AddContact.js";
+import ContactDetail from "./Contactdetail.js";
 
 function App() {
   const LOCAL_STORAGE_KEY = "contacts";
