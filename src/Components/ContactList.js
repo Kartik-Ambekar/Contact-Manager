@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import ContactCard from "Replace text with path of ContactCard.js";
+import ContactCard from "./ContactCard.js";
 import { Router } from "react-router-dom";
 const ContactList = (props) => {
     console.log(props);
